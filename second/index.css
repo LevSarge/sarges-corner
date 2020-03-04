@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 25px;
+}
+
+/* Top section */
+header {
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.purpleRec {
+    background-color: blueviolet;
+    height: 140px;
+    width: 3rem;
+    display: inline-block;
+
+}
+
+.greenRec {
+    background-color: green;
+    height: 175px;
+    width: 350px;
+    display: inline-block;
+    margin: 0 45px;
+}
+
+.blueCirc {
+    background-color: #87ceeb;
+    border: 90px solid #87ceeb;
+    border-radius: 120px ;
+    display: inline-block;
+
+
+}
+
+/* Middle section styling */
+.mainContent2 {
+    width: 100%;
+    border: 5px dotted black;
+    padding: 50px;
+    box-sizing: border-box ;
+    margin-top: 25px; 
+}
+
+.yellowRec {
+    width: 100%;
+    height: 200px;
+    background-color: #fffacd;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.65);
+
+}
+
+/* Footer styling */
+.helloFriendo {
+    width: 50%;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 100px;
+    box-sizing: border-box;
+    margin: 25px auto;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+}
+
+.helloFriendo p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000080;
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
